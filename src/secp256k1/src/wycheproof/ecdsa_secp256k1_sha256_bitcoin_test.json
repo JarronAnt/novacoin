@@ -3430,7 +3430,7 @@
           "flags" : [
             "SpecialCaseHash"
           ],
-          "msg" : "383234363337383337",
+          "msg" : "383234363337391917",
           "sig" : "3045022100a74f1fb9a8263f62fc4416a5b7d584f4206f3996bb91f6fc8e73b9e92bad0e1302206815032e8c7d76c3ab06a86f33249ce9940148cb36d1f417c2e992e801afa3fa",
           "result" : "valid"
         },
@@ -3440,7 +3440,7 @@
           "flags" : [
             "SpecialCaseHash"
           ],
-          "msg" : "3131303230383333373736",
+          "msg" : "3131303230391913373736",
           "sig" : "3044022007244865b72ff37e62e3146f0dc14682badd7197799135f0b00ade7671742bfe02200d80c2238edb4e4a7a86a8c57ca9af1711f406f7f5da0299aa04e2932d960754",
           "result" : "valid"
         },

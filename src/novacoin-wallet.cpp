@@ -1,8 +1,8 @@
-// Copyright (c) 2016-present The Bitcoin Core developers
+// Copyright (c) 2016-present The Novacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <bitcoin-build-config.h> // IWYU pragma: keep
+#include <novacoin-build-config.h> // IWYU pragma: keep
 
 #include <chainparams.h>
 #include <chainparamsbase.h>
@@ -61,17 +61,17 @@ static std::optional<int> WalletAppInit(ArgsManager& args, int argc, char* argv[
     }
     const bool missing_args{argc < 2};
     if (missing_args || HelpRequested(args) || args.GetBoolArg("-version", false)) {
-        std::string strUsage = strprintf("%s bitcoin-wallet utility version", CLIENT_NAME) + " " + FormatFullVersion() + "\n";
+        std::string strUsage = strprintf("%s novacoin-wallet utility version", CLIENT_NAME) + " " + FormatFullVersion() + "\n";
 
         if (args.GetBoolArg("-version", false)) {
             strUsage += FormatParagraph(LicenseInfo());
         } else {
             strUsage += "\n"
-                "bitcoin-wallet is an offline tool for creating and interacting with " CLIENT_NAME " wallet files.\n\n"
-                "By default bitcoin-wallet will act on wallets in the default mainnet wallet directory in the datadir.\n\n"
+                "novacoin-wallet is an offline tool for creating and interacting with " CLIENT_NAME " wallet files.\n\n"
+                "By default novacoin-wallet will act on wallets in the default mainnet wallet directory in the datadir.\n\n"
                 "To change the target wallet, use the -datadir, -wallet and (test)chain selection arguments.\n"
                 "\n"
-                "Usage: bitcoin-wallet [options] <command>\n"
+                "Usage: novacoin-wallet [options] <command>\n"
                 "\n";
             strUsage += "\n" + args.GetHelpMessage();
         }
@@ -124,7 +124,7 @@ MAIN_FUNCTION
 
     const auto command = args.GetCommand();
     if (!command) {
-        tfm::format(std::cerr, "No method provided. Run `bitcoin-wallet -help` for valid methods.\n");
+        tfm::format(std::cerr, "No method provided. Run `novacoin-wallet -help` for valid methods.\n");
         return EXIT_FAILURE;
     }
     if (command->args.size() != 0) {

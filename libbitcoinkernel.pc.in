@@ -6,6 +6,6 @@ includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
 Name: @CLIENT_NAME@ kernel library
 Description: Experimental library for the Bitcoin Core validation engine.
 Version: @CLIENT_VERSION_STRING@
-Libs: -L${libdir} -lbitcoinkernel
+Libs: -L${libdir} -lnovacoinkernel
 Libs.private: -L${libdir} @LIBS_PRIVATE@
 Cflags: -I${includedir}

@@ -2,9 +2,9 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://opensource.org/license/mit/.
 
-if(TARGET bitcoin-util AND TARGET bitcoin-tx AND PYTHON_COMMAND)
+if(TARGET novacoin-util AND TARGET novacoin-tx AND PYTHON_COMMAND)
   add_test(NAME util_test_runner
-    COMMAND ${CMAKE_COMMAND} -E env BITCOINUTIL=$<TARGET_FILE:bitcoin-util> BITCOINTX=$<TARGET_FILE:bitcoin-tx> ${PYTHON_COMMAND} ${PROJECT_BINARY_DIR}/test/util/test_runner.py
+    COMMAND ${CMAKE_COMMAND} -E env BITCOINUTIL=$<TARGET_FILE:novacoin-util> BITCOINTX=$<TARGET_FILE:novacoin-tx> ${PYTHON_COMMAND} ${PROJECT_BINARY_DIR}/test/util/test_runner.py
   )
 endif()
 

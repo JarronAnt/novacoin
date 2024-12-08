@@ -58,13 +58,13 @@
         <translation type="unfinished">Chagua</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Hizi ndizo anwani zako za kutuma malipo ya sarafu ya Bitcoin. Hakikisha kila wakati kiwango na anwani ya kupokea kabla ya kutuma sarafu.</translation>
+        <source>These are your Novacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Hizi ndizo anwani zako za kutuma malipo ya sarafu ya Novacoin. Hakikisha kila wakati kiwango na anwani ya kupokea kabla ya kutuma sarafu.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Novacoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Hizi ndizo anwani zako za Bitcoin za kupokea malipo. Tumia kitufe cha 'Unda anwani mpya ya kupokea' kwenye kichupo cha kupokea ili kuunda anwani mpya.
+        <translation type="unfinished">Hizi ndizo anwani zako za Novacoin za kupokea malipo. Tumia kitufe cha 'Unda anwani mpya ya kupokea' kwenye kichupo cha kupokea ili kuunda anwani mpya.
 Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Ingiza nenosiri la zamani na nenosiri jipya la pochi yako.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Kumbuka kwamba usimbaji fiche wa mkoba wako hauwezi kulinda bitcoins zako zisiibiwe na programu hasidi kuambukiza kompyuta yako.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your novacoins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Kumbuka kwamba usimbaji fiche wa mkoba wako hauwezi kulinda novacoins zako zisiibiwe na programu hasidi kuambukiza kompyuta yako.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -241,7 +241,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>NovacoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">Faili ya mipangilio ya asilimia %1 inaweza kuwa mbovu au batili.</translation>
@@ -331,7 +331,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NovacoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Muhtasari</translation>
@@ -394,8 +394,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Proxy &lt;b&gt;imeamilishwa&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Tuma sarafu kwa anwani ya Bitcoin</translation>
+        <source>Send coins to a Novacoin address</source>
+        <translation type="unfinished">Tuma sarafu kwa anwani ya Novacoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -439,16 +439,16 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Saini &amp;ujumbe...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Saini ujumbe na anwani zako za Bitcoin ili kuthibitisha umiliki wao.</translation>
+        <source>Sign messages with your Novacoin addresses to prove you own them</source>
+        <translation type="unfinished">Saini ujumbe na anwani zako za Novacoin ili kuthibitisha umiliki wao.</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Thibitisha ujumbe...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Hakikisha ujumbe umethibitishwa kuwa ulisainiwa na anwani za Bitcoin zilizotajwa</translation>
+        <source>Verify messages to ensure they were signed with specified Novacoin addresses</source>
+        <translation type="unfinished">Hakikisha ujumbe umethibitishwa kuwa ulisainiwa na anwani za Novacoin zilizotajwa</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -507,8 +507,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Kuunganisha na wenzako wa kushirikiana...</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Omba malipo (huzalisha nambari za QR na bitcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and novacoin: URIs)</source>
+        <translation type="unfinished">Omba malipo (huzalisha nambari za QR na novacoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -558,16 +558,16 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Imesasishwa</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Pakia Muamala wa Bitcoin Uliosainiwa Kiasi</translation>
+        <source>Load Partially Signed Novacoin Transaction</source>
+        <translation type="unfinished">Pakia Muamala wa Novacoin Uliosainiwa Kiasi</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Pakia PSBT kutoka &amp;clipboard...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Pakia Muamala wa Bitcoin Uliosainiwa Kiasi kutoka kwenye ubao wa kunakili</translation>
+        <source>Load Partially Signed Novacoin Transaction from clipboard</source>
+        <translation type="unfinished">Pakia Muamala wa Novacoin Uliosainiwa Kiasi kutoka kwenye ubao wa kunakili</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -586,8 +586,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">&amp;Inapokea anwani</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
-        <translation type="unfinished">Fungua bitcoin: URI</translation>
+        <source>Open a novacoin: URI</source>
+        <translation type="unfinished">Fungua novacoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -624,8 +624,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Hamisha mkoba</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Onyesha %1 ujumbe wa usaidizi ili kupata orodha na chaguo zinazowezekana za mstari wa amri za Bitcoin</translation>
+        <source>Show the %1 help message to get a list with possible Novacoin command-line options</source>
+        <translation type="unfinished">Onyesha %1 ujumbe wa usaidizi ili kupata orodha na chaguo zinazowezekana za mstari wa amri za Novacoin</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -684,7 +684,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <translation type="unfinished">Jinsi &amp; jinsi</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Novacoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1185,7 +1185,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>novacoin-core</name>
     <message>
         <source>More than one onion bind address is provided. Using %s for the automatically created Tor onion service.</source>
         <translation type="unfinished">Zaidi ya anuani moja ya onion bind imetolewa. Inatumia %skwa ajili ya huduma ya Tor onion inayotengeneza kiotomatiki. </translation>

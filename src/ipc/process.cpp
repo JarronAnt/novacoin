@@ -1,4 +1,4 @@
-// Copyright (c) 2021-2022 The Bitcoin Core developers
+// Copyright (c) 2021-2022 The Novacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -75,7 +75,7 @@ static bool ParseAddress(std::string& address,
     if (address.compare(0, 4, "unix") == 0 && (address.size() == 4 || address[4] == ':')) {
         fs::path path;
         if (address.size() <= 5) {
-            path = data_dir / fs::PathFromString(strprintf("%s.sock", RemovePrefixView(dest_exe_name, "bitcoin-")));
+            path = data_dir / fs::PathFromString(strprintf("%s.sock", RemovePrefixView(dest_exe_name, "novacoin-")));
         } else {
             path = data_dir / fs::PathFromString(address.substr(5));
         }

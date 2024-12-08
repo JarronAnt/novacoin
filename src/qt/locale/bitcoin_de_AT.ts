@@ -45,7 +45,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NovacoinGUI</name>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
@@ -54,11 +54,11 @@
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Novacoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
+            <numerusform>%n active connection(s) to Novacoin network.</numerusform>
+            <numerusform>%n active connection(s) to Novacoin network.</numerusform>
         </translation>
     </message>
     </context>

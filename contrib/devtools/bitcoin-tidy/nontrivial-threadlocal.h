@@ -7,7 +7,7 @@
 
 #include <clang-tidy/ClangTidyCheck.h>
 
-namespace bitcoin {
+namespace novacoin {
 
 // Warn about any thread_local variable with a non-trivial destructor.
 class NonTrivialThreadLocal final : public clang::tidy::ClangTidyCheck
@@ -24,6 +24,6 @@ public:
     void check(const clang::ast_matchers::MatchFinder::MatchResult& Result) override;
 };
 
-} // namespace bitcoin
+} // namespace novacoin
 
 #endif // NONTRIVIAL_THREADLOCAL_CHECK_H

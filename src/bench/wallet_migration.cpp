@@ -1,8 +1,8 @@
-// Copyright (c) 2024 The Bitcoin Core developers
+// Copyright (c) 2024 The Novacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include <bitcoin-build-config.h> // IWYU pragma: keep
+#include <novacoin-build-config.h> // IWYU pragma: keep
 
 #include <bench/bench.h>
 #include <interfaces/chain.h>

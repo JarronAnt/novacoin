@@ -1,4 +1,4 @@
-// Copyright (c) 2015-present The Bitcoin Core developers
+// Copyright (c) 2015-present The Novacoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -93,7 +93,7 @@ struct BasicTestingSetup {
      * compatibility. In the future, it will point to m_args to further isolate
      * test environments.
      *
-     * @see https://github.com/bitcoin/bitcoin/issues/25055 for additional context.
+     * @see https://github.com/novacoin/novacoin/issues/25055 for additional context.
      */
     ArgsManager m_args;
 };

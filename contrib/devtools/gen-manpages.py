@@ -9,12 +9,12 @@ import tempfile
 import argparse
 
 BINARIES = [
-'src/bitcoind',
-'src/bitcoin-cli',
-'src/bitcoin-tx',
-'src/bitcoin-wallet',
-'src/bitcoin-util',
-'src/qt/bitcoin-qt',
+'src/novacoind',
+'src/novacoin-cli',
+'src/novacoin-tx',
+'src/novacoin-wallet',
+'src/novacoin-util',
+'src/qt/novacoin-qt',
 ]
 
 parser = argparse.ArgumentParser(

@@ -51,7 +51,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinApplication</name>
+    <name>NovacoinApplication</name>
     <message>
         <source>Settings file %1 might be corrupt or invalid.</source>
         <translation type="unfinished">Uppsetanarfílan %1 kann vera avskeplað ella ógildig.</translation>
@@ -77,8 +77,8 @@
         <translation type="unfinished">Upphædd</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Inntøppa eina Bitcoin adressu (t.d. %1)</translation>
+        <source>Enter a Novacoin address (e.g. %1)</source>
+        <translation type="unfinished">Inntøppa eina Novacoin adressu (t.d. %1)</translation>
     </message>
     <message>
         <source>Ctrl+W</source>
@@ -146,7 +146,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>NovacoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation type="unfinished">&amp;Yvirlit</translation>
@@ -189,8 +189,8 @@
         <translation type="unfinished">&amp;Undirrita  boð</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Undirrita boðini við tíni Bitcoin-adressu fyri at prógva at tey eru tíni</translation>
+        <source>Sign messages with your Novacoin addresses to prove you own them</source>
+        <translation type="unfinished">Undirrita boðini við tíni Novacoin-adressu fyri at prógva at tey eru tíni</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -240,11 +240,11 @@
         <translation type="unfinished">%1 viðskiftari</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Novacoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n virkið samband til Bitcoin netið.</numerusform>
-            <numerusform>%n virkin sambond til Bitcoin netið.</numerusform>
+            <numerusform>%n virkið samband til Novacoin netið.</numerusform>
+            <numerusform>%n virkin sambond til Novacoin netið.</numerusform>
         </translation>
     </message>
     <message>
@@ -498,11 +498,11 @@
         <translation type="unfinished">&amp;Endurstilla stillingar</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Novacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Sjálvvirkandi upplating av Bicoin viðskiftara porturinum á beinaranum. Hetta virkar bert um UPnP er virkja í beinaranum, á netinum tú brúkar.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the Novacoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished">Sjálvvirkandi upplating av Bicoin viðskiftara porturinum á beinaranum. Hetta virkar bert um NAT-PMP er virkja í beinaranum, á netinum tú brúkar. Ytra porturnummari kann vera tilvildarligt.</translation>
     </message>
     <message>
@@ -959,8 +959,8 @@
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Ávaring: Ógildig Bitcoin adressa</translation>
+        <source>Warning: Invalid Novacoin address</source>
+        <translation type="unfinished">Ávaring: Ógildig Novacoin adressa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1009,8 +1009,8 @@
         <translation type="unfinished">&amp;Undirrita Boð</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin adressan at undirskriva boðini við</translation>
+        <source>The Novacoin address to sign the message with</source>
+        <translation type="unfinished">Novacoin adressan at undirskriva boðini við</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1033,8 +1033,8 @@
         <translation type="unfinished">Undirskrift</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Undirskriva boðini fyri at prógva at Bitcoin-adressan er tín</translation>
+        <source>Sign the message to prove you own this Novacoin address</source>
+        <translation type="unfinished">Undirskriva boðini fyri at prógva at Novacoin-adressan er tín</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1045,8 +1045,8 @@
         <translation type="unfinished">Tómstilla &amp;alt</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-adressan ið undirskrivaði boðini</translation>
+        <source>The Novacoin address the message was signed with</source>
+        <translation type="unfinished">Novacoin-adressan ið undirskrivaði boðini</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -1259,7 +1259,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>novacoin-core</name>
     <message>
         <source>The %s developers</source>
         <translation type="unfinished">%smennararnir</translation>

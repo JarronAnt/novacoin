@@ -1,8 +1,8 @@
-# Copyright (c) 2023-present The Bitcoin Core developers
+# Copyright (c) 2023-present The Novacoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://opensource.org/license/mit/.
 
-add_library(bitcoin_util STATIC EXCLUDE_FROM_ALL
+add_library(novacoin_util STATIC EXCLUDE_FROM_ALL
   asmap.cpp
   batchpriority.cpp
   bip32.cpp
@@ -36,11 +36,11 @@ add_library(bitcoin_util STATIC EXCLUDE_FROM_ALL
   ../sync.cpp
 )
 
-target_link_libraries(bitcoin_util
+target_link_libraries(novacoin_util
   PRIVATE
     core_interface
-    bitcoin_clientversion
-    bitcoin_crypto
+    novacoin_clientversion
+    novacoin_crypto
     $<$<PLATFORM_ID:Windows>:ws2_32>
     $<$<PLATFORM_ID:Windows>:iphlpapi>
 )
